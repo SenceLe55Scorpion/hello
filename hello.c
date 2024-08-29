@@ -1,7 +1,7 @@
 /**
- * Author: NAME
- *         EMAIL
- * Date: 20xx/xx/xx
+ * Author: Khaldoon
+ *         Kshammo@huskers.unl.edu
+ * Date: 2024/07/29
  *
  * A simple hello world program in C
  * extra work
@@ -13,9 +13,9 @@
 
 int main(int argc, char **argv) {
 
-  printf("\n");
+  printf("Data Science!\n");
 
-printf("khaldoon shammo\n");
+printf("KLhaldoon Shammo!\n");
 
   return 0;
 }
