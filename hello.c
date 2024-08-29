@@ -15,7 +15,7 @@ int main(int argc, char **argv) {
 
   printf("Data Science!\n");
 
-printf("KLhaldoon Shammo!!\n");
+printf("Khaldoon Shammo!!!\sn");
 
   return 0;
 }
