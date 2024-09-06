@@ -16,7 +16,6 @@ int main(int argc, char **argv) {
 
 //Daclaring all varables such as location A latitude
 
-  double d=0;
   int R=6371;
   double lat1=0;
   double lat2=0;
@@ -45,7 +44,7 @@ that being (pi/180) then multipying that by the degrees to get my raidens
 
   double d = acos(sin(latr1)sin(latr2)+cos(latr1)cos(latr2)cos(lonr2-lonr1))* R;
 
-printf ("%lf", d)
+printf ("%lf", d);
 
 
   return 0;
