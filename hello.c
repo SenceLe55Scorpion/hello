@@ -43,7 +43,7 @@ that being (pi/180) then multipying that by the degrees to get my raidens
   double latr2=lat2*r;
   double lonr2=lon2*r;
 
-  double d = acos(sin(latr1)sin(lonr1))* R;
+  double d = acos(sin(latr1)sin(latr2)+cos(latr1)cos(latr2))* R;
 
   printf("%lf", latr1);
 
